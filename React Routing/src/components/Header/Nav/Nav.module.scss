@@ -1,0 +1,22 @@
+.navStyling {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 0;
+    padding: 1.2rem;
+
+    li {
+        list-style: none;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
+                scale: 1.2;
+            }
+        }
+    }
+}

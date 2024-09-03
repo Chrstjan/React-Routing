@@ -1,7 +1,9 @@
+import style from "./Header.module.scss";
+
 export const Header = ({children}) => {
     return (
         <>
-            <header>
+            <header className={style.headerStyling}>
                 {children}
             </header>
         </>

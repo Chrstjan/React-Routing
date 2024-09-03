@@ -1,0 +1,22 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.2rem;
+}
+
+.cardStyling {
+    border: 2px solid #1c1c1c;
+    border-radius: 6px;
+
+    &:hover {
+        cursor: pointer;
+        scale: 1.05;
+    }
+
+    header {
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+}
