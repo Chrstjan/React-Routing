@@ -9,7 +9,10 @@ export const Nav = () => {
             <li>
                 <NavLink style={({isActive}) => isActive ? {color: "red"} : {color: "white"}} to={"/"}>Home</NavLink>
             </li>
-                <li>
+            <li>
+                <NavLink style={({isActive}) => isActive ? {color: "red"} : {color: "gray"}} to={"/laundry"}>Laundry</NavLink>
+            </li>
+            <li>
                 <NavLink style={({isActive}) => isActive ? {color: "red"} : {color: "white"}} to={"/concepts"}>Concepts</NavLink>
             </li>
             <li>

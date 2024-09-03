@@ -6,6 +6,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import "./App.scss";
 import { PageNotFound } from "./pages/PageNotFound";
+import { LaundryPage } from "./pages/LaundryPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path={"/"} element={<MainLayout />}>
             <Route index element={<LandingPage />}></Route>
+            <Route path={"/laundry"} element={<LaundryPage />}></Route>
             <Route path={"/concepts"} element={<ConceptPage />}></Route>
             <Route path={"/about"} element={<AboutPage />}></Route>
             <Route path={"/contact"} element={<ContactPage />}></Route>
